@@ -1,0 +1,198 @@
+/*
+==================================================
+GENERALES
+==================================================
+*/
+
+* {
+    border: 1px solid tomato;
+}
+
+html, body {
+    font-size: .95rem;
+    font-family: "Roboto", "Helvetica", Arial, sans_serif;
+    line-height: 1.5rem;
+    color: #454545;
+    min-height: 100vh;
+}
+
+/*
+==================================================
+TIPO
+==================================================
+*/
+
+/*
+==================================================
+FRAMEWORK
+==================================================
+*/
+
+/*
+==================================================
+LAYOUT
+==================================================
+*/
+
+.youtube.home {}
+
+.youtube.home .header {}
+
+.youtube.home .aside {}
+
+.youtube.home .main {}
+
+/*
+==================================================
+COMPONENTS
+==================================================
+*/
+
+/*
+=============================
+HEADER
+*/
+
+.header {}
+
+/*
+HEADER BRAND
+*/
+
+.header .header_brand {}
+
+.header .header_brand .header_toggle {}
+
+.header .header_brand .header_toggle img {}
+
+.header .header_brand .header_logo {}
+
+.header .header_brand .header_logo .logo {}
+
+.header .header_brand .header_logo .logo img {}
+
+.header .header_brand .header_logo .lang {}
+
+/*
+HEADER SEARCHBOX
+*/
+
+.header .header_searchbox {}
+
+.header .header_searchbox .header_search {}
+
+.header .header_searchbox .header_search input {}
+
+.header .header_searchbox .header_search input:focus {}
+
+.header .header_searchbox .header_button {}
+
+.header .header_searchbox .header_button button {}
+
+.header .header_searchbox .header_button button:focus {}
+
+.header .header_searchbox .header_button button img {}
+
+/*
+HEADER NAVIGATION
+*/
+
+.header .header_navigation {}
+
+.header .header_navigation .header_navigation_apps {}
+
+.header .header_navigation .header_navigation_apps .header_navigation_app {}
+
+.header .header_navigation .header_navigation_apps .header_navigation_app img {}
+
+.header .header_navigation .header_navigation_user {}
+
+.header .header_navigation .header_navigation_user img {}
+
+/*
+=============================
+ASIDE
+*/
+
+/*
+GLOBAL ASIDE
+*/
+
+.aside {}
+
+.aside .aside_section {}
+
+.aside .aside_section .aside_section_title {}
+
+/*
+ASIDE LIST ITEM
+*/
+
+.aside_list_item {}
+
+.aside_list_item .aside_list_item_icon img {}
+
+.aside_list_item .aside_list_item_label {}
+
+/*
+ASIDE CHANNEL ITEM
+*/
+
+.aside_channel_item {}
+
+.aside_channel_item .aside_channel_item_icon {}
+
+.aside_channel_item .aside_channel_item_icon img {}
+
+.aside_channel_item .aside_channel_item_label {}
+
+.aside_channel_item .aside_channel_item_status {}
+
+.aside_channel_item .aside_channel_item_status .aside_channel_item_status_dot {}
+
+/*
+=============================
+MAIN
+*/
+
+.main {}
+
+.main .videos {}
+
+/*
+VIDEO
+*/
+
+.video {}
+
+.video .video_picture_block {}
+
+.video .video_picture_block .video_picture {}
+
+.video .video_picture_block .video_picture img {}
+
+.video .video_picture_block .video_time {}
+
+.video .video_info_block {}
+
+.video .video_info_block .video_info_user_pic {}
+
+.video .video_info_block .video_info_user_pic img {}
+
+.video .video_info_block .video_info_content {}
+
+.video .video_info_block .video_info_content .video_info_title {}
+
+.video .video_info_block .video_info_content .video_info_author {}
+
+.video .video_info_block .video_info_content .video_info_author .verified {}
+
+.video .video_info_block .video_info_content .video_info_author .verified img {}
+
+.video .video_info_block .video_info_content .video_info_meta {}
+
+.video .video_info_block .video_info_content .video_info_meta .visualizations {}
+
+.video .video_info_block .video_info_content .video_info_meta .dot {}
+
+.video .video_info_block .video_info_content .video_info_meta .time {}
